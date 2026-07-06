@@ -76,7 +76,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 <img width="700" alt="Network energy boxplot" src="https://github.com/user-attachments/assets/433bc589-25e2-4bdf-8355-9efc85e394f0" />
 
 ### Log Processing
-<img width="700" alt="Log Processing energy boxplot" src="https://github.com/user-attachments/assets/9eca9cbe-ba92-424e-8072-beaa1e5e1a59" />
+<img width="700" alt="Log Processing energy boxplot" src="https://github.com/user-attachments/assets/5f685669-5f02-417c-9dbe-30c49ecc6c61" />
 
 ---
 
@@ -136,4 +136,4 @@ This folder contains the energy box-plot visualizations generated for every benc
 <img width="700" alt="Mandelbrot Set G25 energy boxplot" src="https://github.com/user-attachments/assets/c72511a0-59d1-4e67-b79f-098d52972834" />
 
 ### Spectral Norm (G25)
-<img width="700" alt="Spectral Norm G25 energy boxplot" src="https://github.com/user-attachments/assets/f73d0fda-7a4b-4b33-ab66-3597e5734f6b" />
+<img width="700" alt="Spectral Norm G25 energy boxplot" src="https://github.com/user-attachments/assets/3e3b06ef-e655-452f-97f4-26c06a28adf7" />
