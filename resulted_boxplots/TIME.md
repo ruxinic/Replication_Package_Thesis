@@ -5,10 +5,10 @@ This folder contains the execution time box-plot visualizations generated for ev
 ## Contents
 
 - [Core Benchmarks](#core-benchmarks)
-- [Sorting Benchmarks - G2 (Redundant Sort Operations)](#sorting-benchmarks--g2-redundant-sort-operations)
-- [Custom Benchmarks - G4 (Short-Circuit Evaluation)](#custom-benchmarks--g4-short-circuit-evaluation)
-- [Custom Benchmarks - G5 (Approximation)](#custom-benchmarks--g5-approximation)
-- [Custom Benchmarks - G13 (Sleep-on-Wait)](#custom-benchmarks--g13-sleep-on-wait)
+- [Sorting Benchmarks - G2 (Redundant Sort Operations)](#sorting-benchmarks--g2)
+- [Custom Benchmarks - G4 (Short-Circuit Evaluation)](#custom-benchmarks--g4)
+- [Custom Benchmarks - G5 (Approximation)](#custom-benchmarks--g5)
+- [Custom Benchmarks - G13 (Sleep-on-Wait)](#custom-benchmarks--g13)
 - [Custom Benchmarks - G26 & G28](#custom-benchmarks--g26--g28)
 - [Secondary Server (GLG1) - G25 Variants](#secondary-server-glg1--g25-variants)
 
@@ -59,7 +59,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ---
 
-## Sorting Benchmarks - G2 (Redundant Sort Operations)
+## Sorting Benchmarks - G2
 
 *Three sorting algorithms from Rosetta Code, specifically chosen to test G2's "avoid redundant operations on already sorted/semi-sorted collections" guideline.*
 
@@ -74,7 +74,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ---
 
-## Custom Benchmarks - G4 (Short-Circuit Evaluation)
+## Custom Benchmarks - G4
 
 ### Short Circuit Evaluation
 <img width="700" alt="Short Circuit Evaluation time boxplot" src="https://github.com/user-attachments/assets/4d6123e8-a81e-4abf-bd04-a81665155aa4" />
@@ -87,7 +87,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ---
 
-## Custom Benchmarks - G5 (Approximation)
+## Custom Benchmarks - G5
 
 ### Roots of a Function
 <img width="700" alt="Roots of a Function time boxplot" src="https://github.com/user-attachments/assets/519aaf20-3beb-44dd-bfb9-ec6e3fe3aaf8" />
@@ -97,7 +97,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ---
 
-## Custom Benchmarks - G13 (Sleep-on-Wait)
+## Custom Benchmarks - G13
 
 ### Sleep
 <img width="700" alt="Sleep time boxplot" src="https://github.com/user-attachments/assets/6c1f6ba4-ec19-46fa-9b93-f92a590dad5e" />
