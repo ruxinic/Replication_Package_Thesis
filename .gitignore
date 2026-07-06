@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+*.exe
+*.png
+*.sys
+*.csv    # only if the result files are too large/numerous to track in git

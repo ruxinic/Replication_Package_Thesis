@@ -1,0 +1,7 @@
+Family,N_Comparisons,Saves,Wastes,No_Impact,Saves_%,Median_Cliffs_d
+Multithreading,15,10,4,1,66.7,-1.0
+Native Code,32,18,11,3,56.2,-1.0
+Network,5,4,1,0,80.0,-1.0
+Code Optimization,56,27,9,20,48.2,-0.274
+Function Calls,16,7,4,5,43.8,-0.249
+Other,11,5,6,0,45.5,1.0
