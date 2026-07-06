@@ -5,12 +5,12 @@ This folder contains the energy box-plot visualizations generated for every benc
 ## Contents
 
 - [Core Benchmarks](#core-benchmarks)
-- [Sorting Benchmarks — G2 (Redundant Sort Operations)](#sorting-benchmarks--g2-redundant-sort-operations)
-- [Custom Benchmarks — G4 (Short-Circuit Evaluation)](#custom-benchmarks--g4-short-circuit-evaluation)
-- [Custom Benchmarks — G5 (Approximation)](#custom-benchmarks--g5-approximation)
-- [Custom Benchmarks — G13 (Sleep-on-Wait)](#custom-benchmarks--g13-sleep-on-wait)
+- [Sorting Benchmarks — G2](#sorting-benchmarks--g2)
+- [Custom Benchmarks — G4](#custom-benchmarks--g4)
+- [Custom Benchmarks — G5](#custom-benchmarks--g5)
+- [Custom Benchmarks — G13](#custom-benchmarks--g13)
 - [Custom Benchmarks — G26 & G28](#custom-benchmarks--g26--g28)
-- [Secondary Server (GLG1) — G25 Variants](#secondary-server-glg1--g25-variants)
+- [Secondary Server (GLG1) — G25](#secondary-server-glg1--g25)
 
 ---
 
@@ -42,16 +42,16 @@ This folder contains the energy box-plot visualizations generated for every benc
 ### Richards
 <img width="700" alt="Richards energy boxplot" src="https://github.com/user-attachments/assets/1792208f-7e0e-4c65-8448-2a61ad369595" />
 
-### Scimark — LU
+### Scimark - LU
 <img width="700" alt="LU energy boxplot" src="https://github.com/user-attachments/assets/ef37dfb5-9280-46ea-bebd-c8e550284252" />
 
-### Scimark — Monte Carlo
+### Scimark - Monte Carlo
 <img width="700" alt="Monte Carlo energy boxplot" src="https://github.com/user-attachments/assets/2c31dac5-e306-4de0-b6e2-54f71d504dd1" />
 
-### Scimark — SOR
+### Scimark - SOR
 <img width="700" alt="SOR energy boxplot" src="https://github.com/user-attachments/assets/99da4e71-482f-46b2-a3d0-c0b4656542dd" />
 
-### Scimark — Sparse Mat Mult
+### Scimark - Sparse Mat Mult
 <img width="700" alt="Sparse Mat Mult energy boxplot" src="https://github.com/user-attachments/assets/4d705f02-a9a7-4464-bb95-0cba20fd9c3a" />
 
 ### Scimark — FFT
@@ -59,7 +59,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Sorting Benchmarks — G2 (Redundant Sort Operations)
+## Sorting Benchmarks - G2
 
 *Three sorting algorithms from Rosetta Code, specifically chosen to test G2's "avoid redundant operations on already sorted/semi-sorted collections" guideline.*
 
@@ -74,7 +74,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Custom Benchmarks — G4 (Short-Circuit Evaluation)
+## Custom Benchmarks - G4
 
 ### Short Circuit Evaluation
 <img width="700" alt="Short Circuit Evaluation energy boxplot" src="https://github.com/user-attachments/assets/813bb4e7-bd8a-4661-9232-a45121ad184f" />
@@ -87,7 +87,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Custom Benchmarks — G5 (Approximation)
+## Custom Benchmarks - G5
 
 ### Roots of a Function
 <img width="700" alt="Roots of a Function energy boxplot" src="https://github.com/user-attachments/assets/1e6ef725-44f6-4480-9dee-e015dc1d3ba4" />
@@ -97,7 +97,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Custom Benchmarks — G13 (Sleep-on-Wait)
+## Custom Benchmarks - G13
 
 ### Sleep
 <img width="700" alt="Sleep energy boxplot" src="https://github.com/user-attachments/assets/1e5c2473-e17e-4211-b454-1752fcee0d70" />
@@ -116,7 +116,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Custom Benchmarks — G26 & G28
+## Custom Benchmarks - G26 & G28
 
 ### Richards (G26 variant)
 <img width="700" alt="Richards G26 energy boxplot" src="https://github.com/user-attachments/assets/58617589-660e-4129-b62a-745ce60339dd" />
@@ -126,7 +126,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Secondary Server (GLG1) — G25 Variants
+## Secondary Server (GLG1) - G25
 
 *Executed on the secondary, GPU-equipped server (GLG1) since G25 requires offloading to accelerators.*
 
