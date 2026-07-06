@@ -21,7 +21,7 @@ They both filter out rollovers!
 To generate box-plots for a different baseline or optimization, change the following lines at the top of either script:
 
 ```python
-base_path = './final_data/glg1-spectral'
+base_path = '../final_data/glg1-spectral'
 desired_labels = ['baseline', 'g25']
 ```
 
