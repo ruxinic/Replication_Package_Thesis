@@ -5,7 +5,7 @@ matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import os
 
-base_path = './final_data/glg1-spectral'
+base_path = '../final_data/glg1-spectral'
 desired_labels = ['baseline', 'g25']
 versions = [d for d in sorted(os.listdir(base_path))
             if os.path.isdir(os.path.join(base_path, d))]
