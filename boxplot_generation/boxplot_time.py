@@ -5,7 +5,7 @@ matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import os
 
-base_path = './final_data/results-cws'
+base_path = '../final_data/results-cws'
 desired_labels = ['baseline', 'g13']
 versions = [d for d in sorted(os.listdir(base_path))
             if os.path.isdir(os.path.join(base_path, d))]
@@ -55,4 +55,4 @@ plt.xlabel('Guideline Version', fontsize=12)
 plt.ylabel('Total Time (Sec)', fontsize=12)
 
 plt.tight_layout()
-plt.savefig('energy_boxplot.png')
+plt.savefig('time_boxplot.png')
