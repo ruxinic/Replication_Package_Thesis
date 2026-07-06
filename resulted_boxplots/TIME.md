@@ -5,13 +5,12 @@ This folder contains the execution time box-plot visualizations generated for ev
 ## Contents
 
 - [Core Benchmarks](#core-benchmarks)
-- [Sorting Benchmarks - G2](#sorting-benchmarks--g2)
-- [Custom Benchmarks - G4](#custom-benchmarks--g4)
-- [Custom Benchmarks - G5](#custom-benchmarks--g5)
-- [Custom Benchmarks - G13](#custom-benchmarks--g13)
-- [Custom Benchmarks - G26 & G28](#custom-benchmarks--g26--g28)
-- [Secondary Server (GLG1) - G25 Variants](#secondary-server-glg1--g25-variants)
-
+- [Sorting Benchmarks - G2](#sorting-benchmarks---g2)
+- [Custom Benchmarks - G4](#custom-benchmarks---g4)
+- [Custom Benchmarks - G5](#custom-benchmarks---g5)
+- [Custom Benchmarks - G13](#custom-benchmarks---g13)
+- [Custom Benchmarks - G26 & G28](#custom-benchmarks---g26--g28)
+- [Secondary Server (GLG1) - G25 Variants](#secondary-server-glg1---g25-variants)
 ---
 
 ## Core Benchmarks
@@ -131,7 +130,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 *Executed on the secondary, GPU-equipped server (GLG1) since G25 requires offloading to accelerators.*
 
 ### LU (G25)
-<img width="700" alt="LU G25 time boxplot" src="https://github.com/user-attachments/assets/d45b3402-3a8e-45b1
+<img width="700" alt="LU G25 time boxplot" src="https://github.com/user-attachments/assets/d45b3402-3a8e-45b1-8d5c-f90e059fa76e" />
 
 ### Monte Carlo (G25)
 <img width="700" alt="Monte Carlo G25 time boxplot" src="https://github.com/user-attachments/assets/81c951fe-cbc0-4590-b0d6-710fafa0e03f" />
