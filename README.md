@@ -13,6 +13,8 @@ Each guideline was applied to at least 5 benchmarks, executed 30 times per versi
 | `boxplot_generation/` | Scripts used to generate the box-plot visualizations of energy/time results (baseline vs. optimized) shown in the thesis. |
 | `mock_testing/` | Non-complex scripts used to validate each guideline's implementation before running the full-scale experiment. |
 | `run_server/` | Scripts used to execute the benchmarks on the remote servers and collect measurements via EnergiBridge (see its own README for usage instructions). |
+| `resulted_boxplots/` | All generated energy and time box-plots for every benchmark and the guideline(s) applied to it. |
+
 
 ## How the pieces fit together
 
@@ -20,7 +22,8 @@ Each guideline was applied to at least 5 benchmarks, executed 30 times per versi
 2. **`run_server/`** - the scripts that ran that code on the remote servers, 30 times per baseline/guideline version, and collected raw EnergiBridge output.
 3. **`final_data/`** - where all the raw `.csv` output from those runs lives, plus the notebooks that turn it into the statistical results (Shapiro-Wilk, ART-ANOVA, Holm-Bonferroni, Cliff's Delta) reported in the thesis.
 4. **`boxplot_generation/`** - turns the same data into the box-plot figures used throughout the Results section.
-5. **`mock_testing/`** - earlier, smaller-scale runs used to check that each guideline's optimized version behaved correctly before committing to the full 30-run experiment.
+5.  **`resulted_boxplots/`** - encompasses all generated energy and time box-plots.
+6. **`mock_testing/`** - earlier, smaller-scale runs used to check that each guideline's optimized version behaved correctly before committing to the full 30-run experiment.
 
 ## Guideline families
 
