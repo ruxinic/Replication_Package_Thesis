@@ -1,6 +1,6 @@
 # Towards Energy-Aware Coding for Python-based Applications - Replication Package
 
-This repository contains the full replication package for the BSc thesis *"Towards Energy-Aware Coding for Python-based Applications"* (Ruxandra-Maria Nicu, Vrije Universiteit Amsterdam). The study empirically evaluates the impact of 19 Python optimization guidelines, drawn from 6 families, on both **energy consumption** (RQ0) and **execution time** (RQ1), across 26 benchmarks and ~4000 measured runs.
+This repository contains the full replication package for the BSc thesis *"Towards Energy-Aware Coding for Python-based Applications"* (Ruxandra-Maria Nicu, Vrije Universiteit Amsterdam). The study empirically evaluates the impact of 19 Python optimization guidelines, drawn from 6 families, on both **energy consumption** (RQ0) and **execution time** (RQ1), across 27 benchmarks and 5010 measured runs.
 
 Each guideline was applied to at least 5 benchmarks, executed 30 times per version (baseline and optimized) on a dedicated remote server, and measured using [EnergiBridge](https://github.com/tdurieux/EnergiBridge). Results were analyzed with Shapiro-Wilk, ART-ANOVA, Holm-Bonferroni correction, and Cliff's Delta.
 
