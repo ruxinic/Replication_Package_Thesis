@@ -9,7 +9,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 - [Custom Benchmarks - G4](#custom-benchmarks---g4)
 - [Custom Benchmarks - G5](#custom-benchmarks---g5)
 - [Custom Benchmarks - G13](#custom-benchmarks---g13)
-- [Custom Benchmarks - G26 & G28](#custom-benchmarks---g26--g28)
+- [Custom Benchmarks - G26](#custom-benchmarks---g26--g28)
 - [Secondary Server (GLG1) - G25 Variants](#secondary-server-glg1---g25-variants)
 ---
 
@@ -37,6 +37,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ### Spectral Norm
 <img width="700" alt="Spectral Norm time boxplot" src="https://github.com/user-attachments/assets/f5f44efa-cf34-4e5b-b57c-889e58373fd9" />
+<img width="700" alt="Spectral G28 time boxplot" src="https://github.com/user-attachments/assets/f375d622-042e-4479-b02e-083a3e4b851f" />
 
 ### Richards
 <img width="700" alt="Richards time boxplot" src="https://github.com/user-attachments/assets/9f553f1c-3b67-4b3d-9976-31088fff79d0" />
@@ -115,13 +116,10 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ---
 
-## Custom Benchmarks - G26 & G28
+## Custom Benchmarks - G26
 
 ### Richards (G26 variant)
 <img width="700" alt="Richards G26 time boxplot" src="https://github.com/user-attachments/assets/24a6e727-c020-40b1-ac55-4a8a51b0eb73" />
-
-### Spectral (G28 variant)
-<img width="700" alt="Spectral G28 time boxplot" src="https://github.com/user-attachments/assets/f375d622-042e-4479-b02e-083a3e4b851f" />
 
 ---
 
