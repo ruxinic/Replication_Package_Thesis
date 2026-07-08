@@ -9,7 +9,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 - [Custom Benchmarks — G4](#custom-benchmarks--g4)
 - [Custom Benchmarks — G5](#custom-benchmarks--g5)
 - [Custom Benchmarks — G13](#custom-benchmarks--g13)
-- [Custom Benchmarks — G26 & G28](#custom-benchmarks--g26--g28)
+- [Custom Benchmarks — G26](#custom-benchmarks--g26--g28)
 - [Secondary Server (GLG1) — G25](#secondary-server-glg1--g25)
 
 ---
@@ -38,6 +38,8 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ### Spectral Norm
 <img width="700" alt="Spectral Norm energy boxplot" src="https://github.com/user-attachments/assets/9b371ce9-4712-4221-ad04-adf2b90c6547" />
+<img width="700" alt="Spectral G28 energy boxplot" src="https://github.com/user-attachments/assets/43f3214d-bf0f-44ea-83c8-c4989036b801" />
+
 
 ### Richards
 <img width="700" alt="Richards energy boxplot" src="https://github.com/user-attachments/assets/1792208f-7e0e-4c65-8448-2a61ad369595" />
@@ -116,14 +118,10 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ---
 
-## Custom Benchmarks - G26 & G28
+## Custom Benchmarks - G26
 
 ### Richards (G26 variant)
 <img width="700" alt="Richards G26 energy boxplot" src="https://github.com/user-attachments/assets/58617589-660e-4129-b62a-745ce60339dd" />
-
-### Spectral (G28 variant)
-<img width="700" alt="Spectral G28 energy boxplot" src="https://github.com/user-attachments/assets/43f3214d-bf0f-44ea-83c8-c4989036b801" />
-
 ---
 
 ## Secondary Server (GLG1) - G25
