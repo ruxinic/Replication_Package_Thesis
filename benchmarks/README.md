@@ -12,7 +12,7 @@ This folder contains all the benchmarks used to evaluate the 19 optimization gui
 | `mandelbrot_set` | Mandelbrot Set |
 | `n-body` | N-Body |
 | `richards` | Richards 
-| `richards_g26_baseline` | Richards changed to fit G26 (inside `richards` folder)|
+| `richards_g26_baseline` | Richards changed to fit G26 (file inside `richards` folder)|
 | `scimark` | Scimark (fft, lu, sor, monte_carlo, sparse_mat_mult) |
 | `sieves` | Sieve of Eratosthenes |
 | `spectral_norm` | Spectral Norm |
