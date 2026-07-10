@@ -126,7 +126,7 @@ This folder contains the energy box-plot visualizations generated for every benc
 
 ## Secondary Server (GLG1) - G25
 
-*Executed on the secondary, GPU-equipped server (GLG1) since G25 requires offloading to accelerators.*
+*Executed on the secondary, GPU-equipped server (GLG1)*
 
 ### LU (G25)
 <img width="700" alt="LU G25 energy boxplot" src="https://github.com/user-attachments/assets/b10b2752-bc71-4c82-bf41-a6d461a5dbc7" />
