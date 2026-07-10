@@ -125,7 +125,7 @@ This folder contains the execution time box-plot visualizations generated for ev
 
 ## Secondary Server (GLG1) - G25 Variants
 
-*Executed on the secondary, GPU-equipped server (GLG1) since G25 requires offloading to accelerators.*
+*Executed on the secondary, GPU-equipped server (GLG1)*
 
 ### LU (G25)
 <img width="700" alt="LU G25 time boxplot" src="https://github.com/user-attachments/assets/d45b3402-3a8e-45b1-8d5c-f90e059fa76e" />
