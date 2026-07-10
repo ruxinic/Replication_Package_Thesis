@@ -10,7 +10,7 @@ Each guideline was applied to at least 5 benchmarks, executed 30 times per versi
 |---|---|
 | [`benchmarks/`](./benchmarks/README.md) | Source code for every benchmark used in the experiment (baseline + optimized versions per guideline), extracted from the Benchmarks Game, PyPerformance, and Rosetta Code, plus custom-written benchmarks where no suitable published one existed. See the folder's own README for details on sourcing, modifications, and documentation conventions. |
 | [`final_data/`](./final_data/README.md) | All raw EnergiBridge `.csv` output files from the all experiment runs, organized per benchmark/guideline, together with the Jupyter notebooks (`data_analysis_RQ0.ipynb`, `data_analysis_RQ1.ipynb`) used to run the statistical pipeline and produce the tables reported in the thesis. See `STATS_README.md` inside this folder for a full walkthrough of the statistical analysis. |
-| `boxplot_generation/` | Scripts used to generate the box-plot visualizations of energy/time results (baseline vs. optimized) shown in the thesis. |
+| `boxplot_generation/` | Scripts used to generate the box-plot visualizations of energy/time results (baseline vs. optimized) shown in the thesis and in the `resulted_boxplots` folder. |
 | `mock_testing/` | Non-complex scripts used to validate each guideline's implementation before running the full-scale experiment. |
 | `run_server/` | Scripts used to execute the benchmarks on the remote servers and collect measurements via EnergiBridge (see its own README for usage instructions). |
 | `resulted_boxplots/` | All generated energy and time box-plots for every benchmark and the guideline(s) applied to it. |
@@ -36,7 +36,7 @@ Each guideline was applied to at least 5 benchmarks, executed 30 times per versi
 | Network | G23 |
 | Other | G26, G28 |
 
-*(Object Orientation was part of the original taxonomy but excluded from this study due to insufficient supporting literature.)*
+*(Object Orientation was part of the original taxonomy but excluded from this study - see Section 1 of thesis)*
 
 ## Requirements
 
