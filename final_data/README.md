@@ -15,6 +15,11 @@ Each benchmark has its own folder (e.g. `results-sor`, `results-sparse_mat_mult`
 
 Each `.csv` file is a single EnergiBridge run and contains, among other columns, `PACKAGE_ENERGY (J)` (cumulative energy counter) and `Time` (execution time in milliseconds).
 
+## Important Note
+
+While most folders' name starts with `results_` in this repository, this prefix was avoided in the thesis's tables, and so they reflect only the benchmark's name.
+e.g.: `results_lu` -> `lu`.
+
 ## Notebooks
 
 - **`data_analysis_RQ0.ipynb`** — processes energy consumption data (RQ0)
