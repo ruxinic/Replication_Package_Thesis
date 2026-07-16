@@ -1,9 +1,6 @@
 # Benchmarks
-
 This folder contains all the benchmarks used to evaluate the 19 optimization guidelines discussed in the thesis. Each subfolder corresponds to one benchmark and contains its baseline version along with the optimized version(s) produced by applying the relevant guideline(s).
-
 ## Folder structure
-
 | Folder | Benchmark |
 |---|---|
 | `binary-trees` | Binary Trees |
@@ -20,35 +17,30 @@ This folder contains all the benchmarks used to evaluate the 19 optimization gui
 | `test_g4` | Log Processing, Network, Short Circ Eval, README |
 | `test_g5` | Pi, Roots of a Function |
 | `test_g13` | Concurrent Worker Sync, Disk, Hot Flag, Polling, Sleep Block, README|
-
 ## Source of the benchmarks
-
 The benchmarks were extracted from three sources:
-
 - **[The Benchmarks Game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)**
 - **[PyPerformance](https://github.com/python/pyperformance)**
 - **[Rosetta Code](https://rosettacode.org/)**
-
 For a few guidelines, no suitable published benchmark could be found, so custom benchmarks were written from scratch. This applies to `test_g4`, and `test_g13`, since these guidelines target very specific coding patterns (e.g. short-circuit evaluation, approximation of computations, sleep-on-wait behavior) that are hard to isolate in existing benchmark suites.
-
 ## Modifications to Rosetta Code benchmarks
-
 The benchmarks sourced from Rosetta Code were adapted from their original form. Since Rosetta Code snippets are typically small code fragments rather than runnable programs, we added the structural elements needed to actually execute and measure them, such as:
-
 - a `main` function / entry point
 - the ability to pass in input parameters, so the workload size can be adjusted per run
-
 These additions do not change the algorithmic logic of the original snippet - they only make it runnable and configurable for our experiments.
-
 ## Documentation conventions
-
 Changes made to the code are mostly commented directly in the source files. This includes:
-
 - structural changes made to the **baseline** (e.g. added `main` function, input parameter handling, for benchmarks sourced from Rosetta Code)
 - the actual **optimization** applied for each guideline, with a comment marking what was changed
-
 This means each file is self-documenting: reading the comments in a given benchmark folder should be enough to understand exactly what was modified between the baseline and the optimized versions.
-
 ## Input parameters
-
 The input parameters used for each benchmark during testing are documented separately in [`benchmark_inputs.md`](./benchmark_inputs.md), which lists, per benchmark, the exact parameters/arguments used to run the experiments.
+## Benchmark size and complexity metrics
+To characterize the structural diversity of the benchmark suite, [`analyze_baselines.py`](./analyze_baselines.py) runs Radon and Pylint over every baseline file to compute lines of code (LOC), average and maximum cyclomatic complexity, and an overall Pylint code quality score. The resulting per-benchmark metrics are saved in [`baselines_metrics.csv`](./baselines_metrics.csv), which is the data source for Table 2 (Benchmark Suite Size and Complexity) in the thesis. We suggest creating a separate folder with all baselines and these two files, in order to run Pylint and Radon correctly and in an easier way.
+
+To regenerate the metrics:
+```bash
+pip install radon pylint --break-system-packages
+python analyze_baselines.py 
+```
+This produces `baselines_metrics.csv` in the current directory, with one row per baseline file containing LOC, LLOC, SLOC, comment/blank line counts, average and maximum cyclomatic complexity, and Pylint score.
